@@ -63,6 +63,34 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+				<!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
+		<dependency>
+		    <groupId>com.auth0</groupId>
+		    <artifactId>java-jwt</artifactId>
+		    <version>4.4.0</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>io.hypersistence</groupId>
+		    <artifactId>hypersistence-utils-hibernate-63</artifactId>
+		    <version>3.8.1</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.google.code.gson</groupId>
+		    <artifactId>gson</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>jakarta.mail</groupId>
+		    <artifactId>jakarta.mail-api</artifactId>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.bucket4j</groupId>
+		    <artifactId>bucket4j_jdk17-core</artifactId>
+		    <version>8.15.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
