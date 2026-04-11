@@ -28,4 +28,5 @@ public class GeneralParams {
 	public static final String PARAM_ROLE = "role";
 	public static final String PARAM_ROLE_NAME = "name";
 	public static final String PARAM_LAST_SESSION = "lastSession";
+	public static final String PARAM_ADDRESS = "address";
 }

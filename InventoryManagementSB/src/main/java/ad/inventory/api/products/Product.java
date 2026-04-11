@@ -1,5 +1,7 @@
 package ad.inventory.api.products;
 
+import java.time.LocalDateTime;
+
 import ad.inventory.api.categories.Category;
 import ad.inventory.api.units.Unit;
 import jakarta.persistence.Column;
@@ -27,6 +29,12 @@ public class Product {
     
     @Column(nullable = false)
     private Boolean active;
+    
+    @Column(name = "is_deleted", nullable = false)
+    private Boolean isDeleted;
+    
+    @Column(name = "deleted_at", columnDefinition = "TIMESTAMP WITH TIME ZONE")
+    private LocalDateTime deletedAt;
     
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_category")

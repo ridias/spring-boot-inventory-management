@@ -27,7 +27,7 @@ public class JwtUtils {
 	@Value("${inventory.app.jwtExpirationMs}")
 	private Integer jwtExpiration;
 	
-	private static final String ISSUER = "datavision";
+	private static final String ISSUER = "inventory-msb";
 	private static final String CLAIM_DETAILS = "details";
 	
 	private static final Logger log = LoggerFactory.getLogger(JwtUtils.class);

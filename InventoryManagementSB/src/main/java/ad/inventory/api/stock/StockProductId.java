@@ -41,4 +41,5 @@ public class StockProductId implements Serializable {
 		return Objects.hash(idProduct, idAisle, idRack, idWirehouse, idLevel);
 	}
 	
+	
 }

@@ -62,7 +62,4 @@ public class StockProduct {
     @Column(name = "price_sell", nullable = false)
     private Double priceSell;
 	
-	
-	
-	
 }

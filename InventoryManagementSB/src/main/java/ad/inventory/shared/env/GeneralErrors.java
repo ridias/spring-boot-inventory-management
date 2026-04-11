@@ -38,6 +38,7 @@ public class GeneralErrors {
     public static final int ERR_404_GROUP_USERS_NOT_FOUND_CODE = 40400008;
     public static final int ERR_404_PERMISSION_NOT_FOUND_CODE = 40400010;
     public static final int ERR_404_USER_NOT_FOUND_CODE = 40400011;
+    public static final int ERR_404_WIREHOUSE_NOT_FOUND_CODE = 40400012;
     
     
     public static final int ERR_404_PAGE_NOT_FOUND_CODE = 40400060;
@@ -84,6 +85,7 @@ public class GeneralErrors {
     public static final String ERR_404_GROUP_USERS_NOT_FOUND_MSG = "Group users not found";
     public static final String ERR_404_PAGE_NOT_FOUND_MSG = "Page or permission not found";
     public static final String ERR_404_USER_NOT_FOUND_MSG = "User not found";
+    public static final String ERR_404_WIREHOUSE_NOT_FOUND_MSG = "Wirehouse not found";
     
     // errors msg 500
     public static final String ERR_500_USER_GROUP_NOT_DELETED_MSG = "User group cannot be deleted if there are users inside";
